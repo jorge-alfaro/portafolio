@@ -4,6 +4,13 @@
   --animate-delay: 1s;
   --animate-repeat: 1;
 }
+/* SVG Animation*/
+svg path,
+svg rect{
+  fill: black;
+}
+
+/* Animations*/
 @-webkit-keyframes bounceIn {
   from,
   20%,
